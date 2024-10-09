@@ -1,4 +1,4 @@
-﻿accelerate @ git+https://github.com/huggingface/accelerate.git@5060574827ffcf1055179896cbb4f150caa3aec5
+accelerate @ git+https://github.com/huggingface/accelerate.git@5060574827ffcf1055179896cbb4f150caa3aec5
 aiohappyeyeballs==2.4.2
 aiohttp==3.10.8
 aiosignal==1.3.1
@@ -40,7 +40,7 @@ googleapis-common-protos==1.65.0
 greenlet==3.1.1
 grpcio==1.66.2
 grpcio-status==1.62.3
-grpcio-tools==1.66.2
+grpcio-tools>=1.60.0,<1.66.0 
 h11==0.14.0
 h2==4.1.0
 hpack==4.0.0
@@ -91,11 +91,12 @@ pandas==2.2.3
 parso==0.8.4
 peft @ git+https://github.com/huggingface/peft.git@8d9ecbed080eed79f32b279bdec211767919bd94
 pillow==10.4.0
+pipdeptree==2.23.4
 platformdirs==4.3.6
 portalocker==2.10.1
 prompt_toolkit==3.0.48
 proto-plus==1.24.0
-protobuf==4.25.5
+protobuf>=3.20.2, <5.0.0
 psutil==6.0.0
 pure_eval==0.2.3
 pyarrow==17.0.0
@@ -111,6 +112,7 @@ pypdf==5.0.1
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 pytz==2024.2
+pywin32==306
 PyYAML==6.0.2
 pyzmq==26.2.0
 qdrant-client==1.11.3
